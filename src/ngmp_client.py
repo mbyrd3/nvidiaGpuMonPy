@@ -68,7 +68,6 @@ def main():
                             if chunk != b'':
                                 bytes_received = bytes_received + len(chunk)
                                 chunk = str(chunk, 'utf-8')
-                                print(" {} " " {} ".format(chunk, len(chunk)))
                                 self.label_text_rcvd = chunk
                                 self.process_data()
                             else:
