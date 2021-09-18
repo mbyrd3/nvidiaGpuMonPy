@@ -306,7 +306,6 @@ def main():
             msg_len = len(data)
             new_text.insert(0, msg_len)
             data = bytearray((str(new_text)), 'utf-8')
-            print(new_text)
             while total_sent < len(data) and self.allowSending:
                 try:
                     sent = self.connection.send(data[total_sent:])
