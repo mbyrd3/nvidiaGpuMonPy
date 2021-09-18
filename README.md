@@ -14,3 +14,7 @@ Values are updated every second.
 
 To set up the server for remote monitoring go to File > Settings, enter your ip address (e.g. 192.168.1.25) and click Done.
 After that go to File > Start Server to start the server. For NGMP Client the process is the same, once you enter the server ip address go to File > Connect to Server and you will start receiving.
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
