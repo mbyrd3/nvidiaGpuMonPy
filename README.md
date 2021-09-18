@@ -1,5 +1,5 @@
 # Nvidia Gpu Mon Py (NGMP)
-Nvidia Gpu Mon Py is a simple hardware monitoring program which uses pynvml to retrieve the gpu values. It can be used on its own to monitor your hardware locally or, along with NGMP Client, it can be monitored remotely
+Nvidia Gpu Mon Py is a simple hardware monitoring program which uses pynvml to retrieve the gpu values. It can be used on its own to monitor your hardware locally or, along with NGMP Client, it can be monitored remotely. Compatible with Nvidia GPUs only.
 
 ## Features
 - Remote monitoring (with Nvidia Gpu Mon Py Client)
