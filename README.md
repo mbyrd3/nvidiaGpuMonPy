@@ -27,7 +27,8 @@ After that go to File > Start Server to start the server. For NGMP Client the pr
 See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
 
 ## Other Copyright Notices  
-
+  
+#### PYNVML
  Copyright (c) 2011-2020, NVIDIA Corporation.  All rights reserved.  
   
  Redistribution and use in source and binary forms, with or without  
