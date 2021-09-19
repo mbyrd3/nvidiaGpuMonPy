@@ -7,10 +7,10 @@ Nvidia Gpu Mon Py is a simple hardware monitoring program which uses pynvml to r
 - GPU Temperature
 - GPU core and memory clock speed & more
 
-## How To Use
-Note: You can run the executables located within both programs folders which can be found in the bin folder. In this case, Python is not needed.
+## How To Use  
 Download [Python](https://www.python.org/downloads/) if you don't already have it installed.  
-To use, simply run nvidiaGpuMonPy.py or nvidiaGpuMonPy.exe
+Note: You can run the .exe files within both programs folders which can be found in the bin folder. In this case, Python is not needed.  
+To use, simply run nvidiaGpuMonPy.py or nvidiaGpuMonPy.exe  
 Values are updated every second.
 
 To set up the server for remote monitoring go to File > Settings, enter your ip address (e.g. 192.168.1.25) and click Done.
