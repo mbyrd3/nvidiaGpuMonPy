@@ -9,7 +9,7 @@ Nvidia Gpu Mon Py is a simple hardware monitoring program which uses pynvml to r
 
 ## How To Use  
 Download [Python](https://www.python.org/downloads/) if you don't already have it installed.  
-Note: You can run the .exe files within both programs folders which can be found in the bin folder. In this case, Python is not needed.  
+Note: You can run the .exe files within both programs folders which can be found in the bin folder or as a seperate download in the [Releases](https://github.com/mbyrd3/nvidiaGpuMonPy/releases) Section of the github repository. In this case, Python is not needed.  
 To use, simply run nvidiaGpuMonPy.py or nvidiaGpuMonPy.exe  
 Values are updated every second.
 
