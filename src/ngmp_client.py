@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 import tkinter as tk
 import socket
 import threading
+import os
 
 
 # __MAIN__
@@ -138,7 +139,8 @@ def main():
             self.rowconfigure(0, weight=0)
             self.socket_thread = []
             # Menu
-            self.load = Image.open("images\\icon\\s_ico.png")
+            path = os.path.join(os.getcwd(), 'images', 'icon', 's_ico.png')
+            self.load = Image.open(path)
             self.settings_icon = ImageTk.PhotoImage(self.load)
             self.menubar = Menu(master=self)
             self.client_menu = Menu(self.menubar, tearoff=0)

@@ -6,6 +6,7 @@ import psutil
 import pynvml
 import socket
 import threading
+import os
 
 
 # __MAIN__
@@ -53,7 +54,8 @@ def main():
 
             # File menu
             self.menubar = Menu(master=self)
-            self.load = Image.open("images\\icon\\s_ico.png")
+            path = os.path.join(os.getcwd(), 'images', 'icon', 's_ico.png')
+            self.load = Image.open(path)
             self.settings_icon = ImageTk.PhotoImage(self.load)
             self.server_menu = Menu(self.menubar, tearoff=0)
             self.server_menu.add_command(label="Start Server", command=self.server_thread.start)
